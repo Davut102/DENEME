@@ -15,7 +15,7 @@ class CreateItemWidget extends StatelessWidget {
         bottom: 5,
       ),
       decoration: BoxDecoration(
-        color: ColorConstant.blueGray100,
+        color: ColorConstant.blueGray10001,
         borderRadius: BorderRadius.circular(
           getHorizontalSize(
             14.00,

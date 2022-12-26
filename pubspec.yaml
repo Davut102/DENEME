@@ -23,3 +23,5 @@ flutter:
           weight: 600
         - asset: assets/fonts/ArimoRomanRegular.ttf
           weight: 400
+        - asset: assets/fonts/ArimoRomanBold.ttf
+          weight: 700

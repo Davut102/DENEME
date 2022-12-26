@@ -10,34 +10,38 @@ class CreateScreen extends StatelessWidget {
       child: Scaffold(
         backgroundColor: ColorConstant.whiteA700,
         body: Container(
-          width: size.width,
           padding: getPadding(
-            left: 20,
-            top: 25,
-            right: 20,
-            bottom: 25,
+            left: 22,
+            top: 26,
+            right: 22,
+            bottom: 26,
           ),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.start,
             children: [
-              Text(
-                "Start creating",
-                overflow: TextOverflow.ellipsis,
-                textAlign: TextAlign.left,
-                style: TextStyle(
-                  color: ColorConstant.black900,
-                  fontSize: getFontSize(
-                    24,
+              Padding(
+                padding: getPadding(
+                  left: 1,
+                ),
+                child: Text(
+                  "Start creating",
+                  overflow: TextOverflow.ellipsis,
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                    color: ColorConstant.black900,
+                    fontSize: getFontSize(
+                      24,
+                    ),
+                    fontFamily: 'Arimo',
+                    fontWeight: FontWeight.w600,
                   ),
-                  fontFamily: 'Arimo',
-                  fontWeight: FontWeight.w600,
                 ),
               ),
               Padding(
                 padding: getPadding(
-                  top: 22,
-                  right: 41,
+                  top: 21,
+                  right: 39,
                 ),
                 child: GridView.builder(
                   shrinkWrap: true,
@@ -47,10 +51,10 @@ class CreateScreen extends StatelessWidget {
                     ),
                     crossAxisCount: 2,
                     mainAxisSpacing: getHorizontalSize(
-                      39.00,
+                      38.39,
                     ),
                     crossAxisSpacing: getHorizontalSize(
-                      39.00,
+                      38.39,
                     ),
                   ),
                   physics: BouncingScrollPhysics(),
@@ -74,8 +78,8 @@ class CreateScreen extends StatelessWidget {
               ),
               margin: getMargin(
                 left: 115,
-                right: 114,
-                bottom: 8,
+                right: 118,
+                bottom: 9,
               ),
               decoration: BoxDecoration(
                 color: ColorConstant.whiteA700,
@@ -88,12 +92,12 @@ class CreateScreen extends StatelessWidget {
                     child: SingleChildScrollView(
                       scrollDirection: Axis.horizontal,
                       padding: getPadding(
-                        top: 10,
+                        top: 9,
                       ),
                       child: IntrinsicWidth(
                         child: Container(
                           height: getVerticalSize(
-                            51.00,
+                            52.00,
                           ),
                           width: getHorizontalSize(
                             198.00,
@@ -105,9 +109,11 @@ class CreateScreen extends StatelessWidget {
                                 alignment: Alignment.bottomCenter,
                                 child: Container(
                                   height: getVerticalSize(
-                                    60.00,
+                                    61.00,
                                   ),
-                                  width: size.width,
+                                  width: getHorizontalSize(
+                                    431.00,
+                                  ),
                                   decoration: BoxDecoration(
                                     color: ColorConstant.whiteA700,
                                   ),
@@ -117,7 +123,7 @@ class CreateScreen extends StatelessWidget {
                                 alignment: Alignment.bottomCenter,
                                 child: Padding(
                                   padding: getPadding(
-                                    top: 7,
+                                    top: 8,
                                   ),
                                   child: Row(
                                     mainAxisAlignment:
