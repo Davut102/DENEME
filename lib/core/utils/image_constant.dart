@@ -1,4 +1,8 @@
 class ImageConstant {
+  static String imgArtnftsauctio = 'assets/images/img_artnftsauctio.png';
+
+  static String imgPlus18x18 = 'assets/images/img_plus_18x18.svg';
+
   static String img77481661 = 'assets/images/img_77481661.png';
 
   static String imgTenderportrait = 'assets/images/img_tenderportrait.png';
@@ -6,6 +10,8 @@ class ImageConstant {
   static String imgClose = 'assets/images/img_close.svg';
 
   static String imgMenu = 'assets/images/img_menu.svg';
+
+  static String imgMutantdemonap = 'assets/images/img_mutantdemonap.png';
 
   static String imgUser = 'assets/images/img_user.svg';
 
@@ -15,6 +21,8 @@ class ImageConstant {
 
   static String imgFolder = 'assets/images/img_folder.svg';
 
+  static String imgMelaniabilustra = 'assets/images/img_melaniabilustra.png';
+
   static String imgRectangle16 = 'assets/images/img_rectangle16.png';
 
   static String imgPlus = 'assets/images/img_plus.svg';
@@ -23,11 +31,15 @@ class ImageConstant {
 
   static String imgCamera = 'assets/images/img_camera.svg';
 
+  static String imgFrame48095602 = 'assets/images/img_frame48095602.svg';
+
   static String imgImage16 = 'assets/images/img_image16.png';
 
   static String imgEye = 'assets/images/img_eye.svg';
 
   static String imgQuestion = 'assets/images/img_question.svg';
+
+  static String imgCalendar = 'assets/images/img_calendar.svg';
 
   static String imgHome = 'assets/images/img_home.svg';
 
